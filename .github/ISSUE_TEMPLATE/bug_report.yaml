@@ -23,9 +23,9 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: Device
+    id: browsers
     attributes:
-      label: What device are you seeing the problem on?
+      label: What browsers are you seeing the problem on?
       multiple: false
       options:
         - IOS
@@ -33,7 +33,7 @@ body:
         - Windows
         - Mac
     validations:
-      required: True
+      required: true
     - type: file
       id: images
       attributes:
