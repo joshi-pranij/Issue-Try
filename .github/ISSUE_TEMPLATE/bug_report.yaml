@@ -32,7 +32,7 @@ body:
         - 1.0.3 (Edge)
     validations:
       required: true
-  - type: checkbox
+  - type: checkboxes
     id: Device
     attributes:
       label: What device are you seeing the problem on?
