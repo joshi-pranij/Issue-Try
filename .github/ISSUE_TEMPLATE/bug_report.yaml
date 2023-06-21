@@ -34,10 +34,9 @@ body:
         - Mac
     validations:
       required: true
-    - type: file
-      id: images
-      attributes:
-        label: Attach Images for references
-        description: Please attach any relevant images
-        multiple: true
-  
+  - type: file
+    id: images
+    attributes:
+      label: Attach Images for references
+      description: Please attach any relevant images
+      multiple: true
