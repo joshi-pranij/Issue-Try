@@ -16,10 +16,11 @@ body:
     attributes:
       label: Reported on
       description: Select the date the bug was encountered
-      placeholder: Select Date
-      subtype: date
+      placeholder: YYYY-MM-DD
     validations:
       required: true
+      pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+      message: "Please enter a valid date"
   - type: input
     id: epicFeatures
     attributes:
