@@ -11,12 +11,13 @@ body:
       placeholder: ex. Pranij or pranij@gmail.com
     validations:
       required: true
-  - type: datepicker
+  - type: input
     id: date
     attributes:
       label: Reported on
       description: Select the date the bug was encountered
       placeholder: Select Date
+      subtype: date
     validations:
       required: true
   - type: input
