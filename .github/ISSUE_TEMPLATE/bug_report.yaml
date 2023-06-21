@@ -70,7 +70,6 @@ body:
     attributes:
       label: Attach Images for references
       description: Please attach any relevant images
-      multiple: true
   - type: input 
     id: reproduce
     attributes:
