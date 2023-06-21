@@ -3,12 +3,12 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
-  - octocat
+  - PranijJoshi
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Name:
   - type: input
     id: contact
     attributes:
@@ -37,15 +37,15 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: Device
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
+      label: What device are you seeing the problem on?
+      multiple: false
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - IOS
+        - Android
+        - Windows
+        - Mac
   - type: textarea
     id: logs
     attributes:
