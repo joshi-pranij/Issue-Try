@@ -64,12 +64,11 @@ body:
       label: Environment
       description: environment
       placeholder: environment
-  - type: file
+  - type: textarea
     id: images
     attributes:
       label: Attach Images for references
       description: Please attach any relevant images
-      multiple: true
   - type: input 
     id: reproduce
     attributes:
