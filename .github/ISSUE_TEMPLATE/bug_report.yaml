@@ -16,7 +16,7 @@ body:
   - type: input
     id: date
     attributes:
-      label: Reported on:
+      label: Reported on
       description: Select the date the bug was encountered
       placeholder: Select the date
       format: date
