@@ -1,7 +1,5 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
 assignees:
   - PranijJoshi
 body:
@@ -25,9 +23,8 @@ body:
     id: epicFeatures
     attributes:
       label: Epic Features
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      description: Which feature encountered the problem?
+      placeholder: Please list the features where the problem occurred.
     validations:
       required: true
   - type: input
@@ -47,7 +44,7 @@ body:
   - type: input
     id: Description
     attributes: 
-      label: description
+      label: Description
       description: Brief description of the reported bug
       placeholder: description
   - type: dropdown
