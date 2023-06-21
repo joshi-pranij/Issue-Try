@@ -12,5 +12,5 @@ body:
     label: What is the issue??
     description: What was the expected output??
     placeholder: Tell us what you see!
-    validateions:
-      requred: True
+    validations:
+      required: True
