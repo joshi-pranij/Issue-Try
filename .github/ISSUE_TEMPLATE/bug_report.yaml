@@ -5,16 +5,12 @@ labels: ["bug", "triage"]
 assignees:
   - PranijJoshi
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Name:
   - type: input
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      description: Please enter your name or email
+      placeholder: ex. Pranij or pranij@gmail.com
     validations:
       required: false
   - type: textarea
@@ -36,7 +32,7 @@ body:
         - 1.0.3 (Edge)
     validations:
       required: true
-  - type: dropdown
+  - type: checkbox
     id: Device
     attributes:
       label: What device are you seeing the problem on?
@@ -46,12 +42,8 @@ body:
         - Android
         - Windows
         - Mac
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+        validations:
+          required: True
   - type: checkboxes
     id: terms
     attributes:
