@@ -84,6 +84,6 @@ body:
       label: Expected Behavior 
       description: What was the functionality
       placeholder: How should it have functioned??
-    validation:
+    validations:
       required: true
     
