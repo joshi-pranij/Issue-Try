@@ -1,7 +1,7 @@
 name: Bug Report
 description: File a bug report
 title: "Title of your bug"
-labels: Title
+labels: Title, URL, Logged By, Reported On, Epic-Features, Severity, Envrionment
 assignees:
   - PranijJoshi
 body:
