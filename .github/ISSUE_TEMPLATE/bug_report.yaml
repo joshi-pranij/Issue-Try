@@ -6,7 +6,7 @@ assignees:
   - PranijJoshi
 body:
   - type: textarea
-    id: name
+    id: loggedBy
     attributes:
       label: Logged By
       description: Please enter your name or email
