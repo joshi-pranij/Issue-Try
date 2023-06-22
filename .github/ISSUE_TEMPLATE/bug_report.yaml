@@ -5,7 +5,7 @@ labels: Title
 assignees:
   - PranijJoshi
 body:
-  - type: input
+  - type: textarea
     id: name
     attributes:
       label: Logged By
@@ -13,17 +13,15 @@ body:
       placeholder: ex. Pranij or pranij@gmail.com
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: date
     attributes:
       label: Reported on
       description: Select the date the bug was encountered
-      placeholder: YYYY-MM-DD
+      placeholder: MM/DD/YYYY
     validations:
       required: true
-      pattern: "^\\d{4}-\\d{2}-\\d{2}$"
-      message: "Please enter a valid date"
-  - type: input
+  - type: textarea
     id: epicFeatures
     attributes:
       label: Epic Features
@@ -31,28 +29,23 @@ body:
       placeholder: Please list the features where the problem occurred.
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: urls
     attributes:
       label: URL
       description: Please include the URL of the bug
       placeholder: URL    
-  - type: input
+  - type: textarea
     id: Description
     attributes: 
       label: Description
       description: Brief description of the reported bug
       placeholder: description
-  - type: dropdown
+  - type: textarea
     id: severity
     attributes:
       label: Severity
-      multiple: False
-      options: 
-        - High
-        - Medium 
-        - Low
-  - type: input 
+  - type: textarea
     id: environment
     attributes:
       label: Environment
@@ -63,7 +56,7 @@ body:
     attributes:
       label: Attach Images for references
       description: Please attach any relevant images
-  - type: input 
+  - type: textarea 
     id: reproduce
     attributes:
       label: How to Reproduce
@@ -71,7 +64,7 @@ body:
       placeholder: How to reproduce the bug
     validations: 
       required: true
-  - type: input
+  - type: textarea
     id: behavior
     attributes:
       label: Expected Behavior 
